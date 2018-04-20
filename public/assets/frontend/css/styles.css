@@ -1,0 +1,48 @@
+/**
+ *
+ */
+
+.font-large {
+    font-size: 20px;
+}
+
+.font-medium {
+    font-size: 18px;
+}
+
+.card-bg {
+    float: left;
+    position: absolute;
+    display:block;
+    bottom: 10px;
+    width:100%;
+    height:100%;
+    font-size: 275px;
+    text-align: center;
+}
+
+.blue-bg {
+    background: #067ec1;
+}
+
+.border-blue-bottom {
+    border-bottom: 3px solid #067ec1;
+}
+
+.full-height {
+    height: 50vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}

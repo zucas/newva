@@ -1,0 +1,11 @@
+<?php
+
+namespace $NAMESPACE$;
+
+use App\Models\BaseModel;
+
+class $CLASS$ extends BaseModel
+{
+    public $table = '';
+    protected $fillable = $FILLABLE$;
+}

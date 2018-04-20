@@ -1,0 +1,29 @@
+{
+    "name": "phpvms/installer",
+    "type": "laravel-library",
+    "description": "The installer module for phpVMS",
+    "authors": [
+        {
+            "name": "Nabeel Shahzad",
+            "email": ""
+        }
+    ],
+    "require": {
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Installer\\Providers\\InstallerServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Installer\\": ""
+        }
+    }
+}
